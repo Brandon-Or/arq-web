@@ -1,0 +1,220 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: black;
+    transition: transform 0.4s;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+header:hover {
+    transform: scale(1.01)
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    padding: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+nav ul li a:hover {
+    border-radius: 3px;
+    padding: 20px;
+    background-color: aqua;
+}
+
+.video {
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 320px;
+}
+
+.video h1 {
+    position: absolute;
+    top: 5%;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.baner-box img {
+    position: relative;
+    width: 400px;
+    float: right;
+    top: 825px;
+    right: 15px;
+}
+
+.publicidad {
+    width: 400px;
+    float: right;
+    top: 59.7%;
+    position: relative;
+    left: 390px;
+    top: 142px;
+}
+
+.publicidad-disney {
+    position: relative;
+    bottom: 525px;
+    right: 480px;
+}
+
+.container-categorias {
+    padding: 30px;
+    margin: 10px;
+    display: flex;
+    gap: 35%;
+}
+
+.baner {
+    border: 1px solid black;
+    height: 400px;
+    padding: 10px;
+    width: 160px;
+    border-radius: 10px;
+    background-color: black;
+
+}
+
+.card-2 {
+    position: relative;
+    left: 525px;
+}
+
+.card-3 {
+    position: relative;
+    left: 525px;
+    bottom: 180px;
+    width: 825px;
+}
+
+.baner a {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 25px;
+    display: inline-block;
+    transition: all 0.3s ease;
+    width: 100px;
+
+}
+
+.baner a:hover {
+    padding-left: 6px;
+    background-color: aqua;
+    border-radius: 10px;
+
+}
+
+div ul a {
+    text-decoration: none;
+    color: black;
+}
+
+div ul li {
+    padding: 2px;
+}
+
+h4 {
+    display: inline-block;
+    border-bottom: 2px solid aqua;
+    margin-bottom: 15px;
+    padding: 5px;
+    color: #FFFFFF;
+
+}
+
+p {
+    width: 815px;
+}
+
+.footer {
+    background-color: black;
+    padding: 20px 0px;
+    margin-top: 80px;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-link {
+    width: 25%;
+    padding: 0px 15px;
+}
+
+.footer-link h4 {
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    border-bottom: 2px solid aqua;
+    display: inline-block;
+}
+
+.footer-link ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #BBBBBB;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+
+.footer-link ul li a:hover {
+    color: #ffffff;
+    padding-left: 6px;
+}
+
+.social-link a {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 40px;
+    min-height: 40px;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    transition: all .5s ease;
+}
+
+.social-link a:hover {
+    background-color: #00c3ff;
+}
+
+.continuacion a {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 40px;
+    min-height: 40px;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: black;
+    transition: all .5s ease;
+    font-size: 15px;
+}
+
+.continuacion a:hover {
+    background-color: #00c3ff;
+}
